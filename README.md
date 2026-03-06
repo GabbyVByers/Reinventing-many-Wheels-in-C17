@@ -1,9 +1,10 @@
 
 # Simple C Utilities Library
 
-- [x] Arenas
-- [x] Arrays
-- [ ] Strings 
+## Rusty Types
+## Arenas
+## Arrays
+## Strings 
 
 ```c
 typedef void Arena;
@@ -23,3 +24,4 @@ void   array_remove(Array* array_alias, u64 index);
 void   array_remove_unordered(Array* array_alias, u64 index);
 void   array_destroy(Array* array_alias);
 ```
+
