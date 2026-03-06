@@ -1,9 +1,9 @@
 
 # Simple C Utilities Library
 
-## - [x] Arenas
-## - [x] Arrays
-## - [ ] Strings 
+- [x] Arenas
+- [x] Arrays
+- [ ] Strings 
 
 ```c
 typedef void Arena;
