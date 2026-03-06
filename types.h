@@ -36,17 +36,17 @@ typedef float f32;
 typedef double f64;
 
 static inline void TEST_ASSERT_TYPE_SIZE(void) {
-	if (sizeof(i8) != 1)     exit(1);
-	if (sizeof(i16) != 2)    exit(1);
-	if (sizeof(i32) != 4)    exit(1);
-	if (sizeof(i64) != 8)    exit(1);
-	if (sizeof(u8) != 1)     exit(1);
-	if (sizeof(u16) != 2)    exit(1);
-	if (sizeof(u32) != 4)    exit(1);
-	if (sizeof(u64) != 8)    exit(1);
-	if (sizeof(bool) != 1)   exit(1);
-	if (sizeof(f32) != 4)    exit(1);
-	if (sizeof(f64) != 8)    exit(1);
+	if (sizeof(i8) != 1) exit(1);
+	if (sizeof(i16) != 2) exit(1);
+	if (sizeof(i32) != 4) exit(1);
+	if (sizeof(i64) != 8) exit(1);
+	if (sizeof(u8) != 1) exit(1);
+	if (sizeof(u16) != 2) exit(1);
+	if (sizeof(u32) != 4) exit(1);
+	if (sizeof(u64) != 8) exit(1);
+	if (sizeof(bool) != 1) exit(1);
+	if (sizeof(f32) != 4) exit(1);
+	if (sizeof(f64) != 8) exit(1);
 	if (sizeof(size_t) != 8) exit(1);
 }
 
