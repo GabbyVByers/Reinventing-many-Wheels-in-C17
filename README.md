@@ -1,10 +1,6 @@
 
 # Simple C Utilities Library
 
-Rusty Types
-Arenas
-Arrays
-Strings 
 
 ```c
 typedef void Arena;

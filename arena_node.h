@@ -15,7 +15,7 @@
 
 typedef void ArenaNode;
 ArenaNode* arena_node_create(u64 capacity);
-void*      arena_node_alloc(ArenaNode* arena_alias, u64 requested);
+void*      arena_node_alloc(ArenaNode* arena_alias, u64 bytes);
 void       arena_node_clear(ArenaNode* arena_alias);
 void       arena_node_destroy(ArenaNode* arena_alias);
 
