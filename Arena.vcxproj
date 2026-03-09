@@ -127,11 +127,13 @@
     <ClCompile Include="array.c" />
     <ClCompile Include="arena.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="safe_string.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arena_node.h" />
     <ClInclude Include="array.h" />
     <ClInclude Include="arena.h" />
+    <ClInclude Include="safe_string.h" />
     <ClInclude Include="types.h" />
   </ItemGroup>
   <ItemGroup>
